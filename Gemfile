@@ -18,6 +18,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.2'
 gem 'activeadmin'
 gem "draper", "~> 3.0"
+gem 'active_skin'
 
 
 group :development, :test do
