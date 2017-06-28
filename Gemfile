@@ -19,6 +19,7 @@ gem 'devise', '~> 4.2'
 gem 'activeadmin'
 gem "draper", "~> 3.0"
 gem 'active_skin'
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
 
 
 group :development, :test do
