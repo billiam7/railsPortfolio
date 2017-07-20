@@ -3,6 +3,11 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+ html, body {
+   margin: 0;
+   padding: 0;
+ }
+
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -78,6 +83,9 @@ header .container {
 header img {
   display: block;
   margin: 0 auto 20px;
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
 }
 header .intro-text .name {
   display: block;
